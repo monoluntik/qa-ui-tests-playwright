@@ -1,6 +1,6 @@
 # qa-ui-tests-playwright
 
-![CI](https://github.com/narbkv07/qa-ui-tests-playwright/actions/workflows/tests.yml/badge.svg)
+![CI](https://github.com/monoluntik/qa-ui-tests-playwright/actions/workflows/tests.yml/badge.svg)
 
 UI/E2E-автотесты для [SauceDemo](https://www.saucedemo.com) — стабильного демо-магазина.  
 *Demonstrates UI automation with Playwright + Selenium, Page Object Model.*
