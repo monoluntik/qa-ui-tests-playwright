@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test reports
+reports/
+.allure/
+allure-results/
+
+# Playwright
+test-results/
+playwright-report/
+
+# webdriver-manager cache
+.wdm/
+
+# Environment variables
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+
+# pytest cache
+.pytest_cache/
