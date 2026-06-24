@@ -52,8 +52,6 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Install Chrome
-        uses: browser-actions/setup-chrome@v1
-
       - name: Run Selenium tests
+        # Chrome pre-installed on ubuntu-latest; Selenium Manager скачивает ChromeDriver автоматически
         run: pytest tests_selenium/ -v
